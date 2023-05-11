@@ -6,7 +6,20 @@ figure#capaimg img{
 }
 
 div.info{
-    background-color: var(--corDeFundo3);
+    background-color: var(--corDeFundo5);
     margin: 2em;
     border-radius: 10px;
+}
+
+div.info > h2{
+    text-align: center;
+    background-color: var(--corDeFundo4);
+    border-radius: 10px 10px 0px 0px;
+    padding: 0.5em;
+    font-size: 1.5em;
+}
+
+div.info > p{
+    line-height: 1.5ems;
+    padding: 0.5em;
 }
