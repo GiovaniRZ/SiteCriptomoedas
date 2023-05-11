@@ -1,0 +1,38 @@
+/* CSS da página de Moedas */
+
+h1#Titulo{
+    text-align: center;
+    margin: 1em;
+}
+
+
+table#moedas{
+    margin: 5em;
+    line-height: 1.5em;
+    font-size: 1em;
+    border-spacing: 0px;
+}
+
+table#moedas td{
+    padding: 0.5em;
+}
+
+.coluna1{
+    width: 20%;
+}
+
+.coluna2{
+    width: 80%;
+}
+
+div#container img{
+    width: 85%;
+}
+
+table#moedas tr.linhaA{
+    background-color: var(--corDeFundo3);
+}
+
+table#moedas tr.linhaB{
+    background-color: var(--corDeFundo5);
+}
